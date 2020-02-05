@@ -9,7 +9,7 @@ class Dog
 	end
 	
 	def save
-	@@all.push(self)
+	@@all.push(name)
 	end
 
 	def self.clear_all
