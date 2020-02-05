@@ -21,5 +21,7 @@ class Dog
 	def self.print_all
 	  @@all.each do |dog|
 	    print dog.name
+	  end
+	end
 	
 end
