@@ -8,8 +8,9 @@ class Dog
 		@@all << self
 	end
 	
-	def save
-	  
+	def #save
+	@@all.push(self)
+	end
 
 	def self.clear_all
 		@@all.clear
